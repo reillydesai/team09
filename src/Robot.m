@@ -22,7 +22,7 @@ classdef Robot < OM_X_arm
 
             % Set the robot to move between positions with a 5 second profile
             % change here or call writeTime in scripts to change
-            self.writeTime(2);
+            self.writeTime(2); 
 
             % Robot Dimensions
             self.mDim = [96.326, 130.23, 124, 133.4]; % (mm)
